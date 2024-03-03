@@ -1,0 +1,20 @@
+.button {
+    background-color: var(--primary-green);
+    border: none;
+    height: 60px;
+    font-size: 22px;
+    font-family: 'Lexend Deca', sans-serif;
+    border: 3px solid var(--primary-green);
+    font-weight: bold;
+    color: var(--primary-white);
+    padding: 0 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: var(--drop-shadow);
+}
+
+.button:hover {
+    color: var(--primary-gold);
+    transform: scale(1.02);
+}
