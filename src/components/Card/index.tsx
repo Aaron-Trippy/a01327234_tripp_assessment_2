@@ -4,7 +4,7 @@ import styles from './Card.module.css';
 import Spline from "@splinetool/react-spline";
 import ButtonPrimary from '@/components/ButtonPrimary';
 
-export default function Card({ title, desc, spline, cta }) {
+const Card: React.FC<CardProps> = ({ title, desc, spline, cta }) => {
     return (
         <>
             <main>
@@ -24,3 +24,5 @@ export default function Card({ title, desc, spline, cta }) {
         </>
     );
 };
+
+export default Card;

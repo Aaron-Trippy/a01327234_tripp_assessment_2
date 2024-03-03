@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import styles from './ButtonPrimary.module.css'; 
 
-export default function ButtonPrimary({ buttonText, link }) {
+const ButtonPrimary: React.FC<ButtonPrimaryProps> = ({ buttonText, link }) => {
     return (
         <>
             <Link href={link}>
@@ -13,3 +13,5 @@ export default function ButtonPrimary({ buttonText, link }) {
         </>
     );
 };
+
+export default ButtonPrimary;

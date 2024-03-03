@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import styles from './ButtonSecondary.module.css'; 
 
-export default function ButtonSecondary({ buttonText, link }) {
+const ButtonSecondary: React.FC<ButtonSecondaryProps> = ({ buttonText, link }) => {
     return (
         <>
             <Link href={link}>
@@ -13,3 +13,5 @@ export default function ButtonSecondary({ buttonText, link }) {
         </>
     );
 };
+
+export default ButtonSecondary;
