@@ -12,6 +12,7 @@
   text-decoration: none;
   gap: 0;
   overflow: hidden;
+  box-sizing: border-box;
 }
 
 .footer > p {
